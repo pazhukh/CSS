@@ -1,3 +1,5 @@
+https://transfonter.org/  - трансформаці шрифтів
+
 //посиціонуємо по центрі блока
 position: absolute;
 top: 50%;
