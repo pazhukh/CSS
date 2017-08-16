@@ -30,3 +30,26 @@ https://github.com/IanLunn/Hover/blob/master/css/hover.css
     left: -100%;
   }
 }
+
+*****************************************************************************************
+похилі секції
+	&::before{
+		content: '';
+		position: absolute;
+		top: -5%;
+		left: -5%;
+		height: 100px;
+		width: 110%;
+		background-color: white;
+		transform: rotate(-2deg);
+	}
+	&::after{
+		content: '';
+		position: absolute;
+		bottom: -5%;
+		left: -5%;
+		height: 100px;
+		width: 110%;
+		background-color: white;
+		transform: rotate(-2deg);
+	}
