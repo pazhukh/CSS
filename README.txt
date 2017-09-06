@@ -53,3 +53,9 @@ https://github.com/IanLunn/Hover/blob/master/css/hover.css
 		background-color: white;
 		transform: rotate(-2deg);
 	}
+
+
+******************************************************************************************
+
+//responsive square
+https://spin.atomicobject.com/2015/07/14/css-responsive-square/
