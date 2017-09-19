@@ -59,3 +59,21 @@ https://github.com/IanLunn/Hover/blob/master/css/hover.css
 
 //responsive square
 https://spin.atomicobject.com/2015/07/14/css-responsive-square/
+
+******************************************************************************************
+
+//змінюємо стандартні стилі autocomplite -webkit браузери
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-text-fill-color: $lightBlack;
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+	transition: background-color 5000s ease-in-out 0s;
+}
