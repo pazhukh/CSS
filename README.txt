@@ -60,6 +60,9 @@ https://github.com/IanLunn/Hover/blob/master/css/hover.css
 //responsive square
 https://spin.atomicobject.com/2015/07/14/css-responsive-square/
 
+//вибрати два останні елементи
+&:nth-last-of-type(-n+2)
+
 ******************************************************************************************
 
 //змінюємо стандартні стилі autocomplite -webkit браузери
