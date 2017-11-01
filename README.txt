@@ -31,6 +31,23 @@ https://github.com/IanLunn/Hover/blob/master/css/hover.css
   }
 }
 
+//другий спосіб
+video {
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+	width: 100%;
+	background: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position: center center;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
 *****************************************************************************************
 похилі секції
 	&::before{
