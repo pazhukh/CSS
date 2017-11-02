@@ -97,3 +97,23 @@ select:-webkit-autofill:focus {
 	-webkit-box-shadow: 0 0 0px 1000px white inset;
 	transition: background-color 5000s ease-in-out 0s;
 }
+
+*******************************************************************************************
+
+//input при кліку placeholder іде на верх
+input:not([value=""]) ~ b, input:focus ~ b{
+	top: -10px;
+	color: $gold;
+	font-size: 12px;
+} 
+//js
+$("input").each(function(){
+			$(this).on('keyup', function(){
+				$(this).attr('value', $(this).val());
+			})
+		});
+
+//нижній бордер зєвляється
+input:focus ~ span{
+		transform: scale(1);
+	}
