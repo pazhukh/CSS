@@ -78,6 +78,7 @@ video {
 https://spin.atomicobject.com/2015/07/14/css-responsive-square/
 
 //вибрати два останні елементи
+https://css-tricks.com/useful-nth-child-recipies/
 &:nth-last-of-type(-n+2)
 
 ******************************************************************************************
