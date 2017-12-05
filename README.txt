@@ -1,5 +1,10 @@
 https://transfonter.org/  - трансформаці шрифтів
 
+
+//position absolute width auto
+white-space: nowrap;
+
+
 //посиціонуємо по центрі блока
 position: absolute;
 top: 50%;
