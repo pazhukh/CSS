@@ -1,6 +1,13 @@
 https://transfonter.org/  - трансформаці шрифтів
 
 
+//видаляє play button video tag IOS
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
+
+
 //position absolute width auto
 white-space: nowrap;
 
