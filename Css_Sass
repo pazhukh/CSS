@@ -6,7 +6,7 @@ SASS
 //Sass-BEM
 .block {
   color: red;
-  @at-root #{&}-item{
+  &-item{
     font-size: 12px;	
   }
 }
