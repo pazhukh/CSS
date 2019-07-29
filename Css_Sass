@@ -33,17 +33,21 @@ CSS
 
 https://transfonter.org/  - трансформаці шрифтів
 
+
+//біла картинка png
+filter: brightness(0) invert(1)
+
 //зробити текст прозорим в кінці діва для -webkit
 background: linear-gradient(top, $dkBlue 0, rgba($dkBlue, 0.8) 40%, rgba($dkBlue, 0.3) 70%, rgba($dkBlue, 0.1) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 
 
+
 //видаляє play button video tag IOS
 video::-webkit-media-controls-start-playback-button {
   display: none !important;
 }
-
 
 
 //position absolute width auto
