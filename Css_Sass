@@ -41,7 +41,9 @@ filter: brightness(0) invert(1)
 background: linear-gradient(top, $dkBlue 0, rgba($dkBlue, 0.8) 40%, rgba($dkBlue, 0.3) 70%, rgba($dkBlue, 0.1) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-
+		
+//flex px and fill rest space
+https://codepen.io/matuzo/pen/jbRjMG
 
 
 //видаляє play button video tag IOS
